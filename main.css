@@ -5,3 +5,10 @@ body{
     background-color:rgb(39, 36, 36);
     color:azure;
 }
+a{
+    color: rgb(43, 116, 180);
+}
+
+a:hover, a:active {
+color:linen;
+}
