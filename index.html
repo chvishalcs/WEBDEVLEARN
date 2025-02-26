@@ -97,19 +97,62 @@
   </section>
 </article>
 
+<!--FORMS AND INPUTS STARTS-->
+
 <hr>
 <article id="contact info">
   <h2>Contact here!!</h2>
   <h3>here is where u guys can try contacting us!!</h3>
   <form action="https://httpbin.org/get"method="get">
-    <label for="firstname">First name:</label>
-    <input type="text" name="firstname"
-    id="firstname" placeholder="jane">
-    <label for="age">age:</label>
+    <p><label for="firstname">First name:</label>
+      <input type="text" name="firstname"
+      id="firstname" placeholder="jane" autocomplete="on" required autofocus>
+    </p>
+
+    <p>
+      <label for="lastname">last name:</label>
+    <input type="text" name="lastname" 
+    id="lastname" placeholder="doe" autocomplete="on" required autofocus>
+    </p>
+    <p>
+      <label for="password">password:</label>
+    <input type="password" name="password" 
+    id="password" placeholder="your secret" autocomplete="on" required autofocus>
+    </p>
+    
+    <p>
+      <label for="phone number">phone number:</label>
+    <input type="number" name="phone number" 
+    id="phone number" placeholder="5449648345" autocomplete="on" required autofocus pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+    </p>
+    
+    <p>
+      <label for="age">age:</label>
     <input type="number" name="age"
     id="age" placeholder="25">
+    </p>
+
+
+  <p>
+    <label for="coffee">favorite coffee:</label>
+    
+    <select name="coffee" id="coffee">
+      <option value="regular coffee">regular coffee</option>
+      <option value="iced coffee">iced coffee</option>   
+      <option value="latte">latte</option>
+      <option value="cappuccino">cappuccino</option>  
+      <option value="brue coffee">brue coffee</option> 
+      <option value="cortado">cortado</option>  
+      <option value="americano">americano</option> 
+      <option value="others">others</option>          
+    </select>
+  </p>
+    
+
   </form>
 </article>
+
+
 
 
 <h3>this is maybe the biggest liks for the highest ones bro....i mean im talking about the way the content is portrayed. listen to my latest tracks:- <a href="https://www.youtube.com/watch?v=-0aRekC4ulA&list=OLAK5uy_mOLcIU6MalLmtOlNuMXPxcWgCS_iiiwFA">EPCV</a>
