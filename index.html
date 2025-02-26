@@ -1,4 +1,4 @@
-  
+ 
  <!DOCTYPE html>
 <html lang ="en">
 
@@ -12,7 +12,10 @@
   </head>
 
   <body>
+
 <header>
+
+  <!--NAVIGATION BAR OR NAV BAR STARTS-->
   <nav aria-label="primary-navigation">
     <ul>
       <li><a href= "#html">the leaning of html!!</a></li>
@@ -104,6 +107,8 @@
   <h2>Contact here!!</h2>
   <h3>here is where u guys can try contacting us!!</h3>
   <form action="https://httpbin.org/get"method="get">
+    <fieldset>
+      <legend>personal info</legend>
     <p><label for="firstname">First name:</label>
       <input type="text" name="firstname"
       id="firstname" placeholder="jane" autocomplete="on" required autofocus>
@@ -134,9 +139,9 @@
 
 
   <p>
-    <label for="coffee">favorite coffee:</label>
+    <label for="choose a coffee">favorite coffee:</label>
     
-    <select name="coffee" id="coffee">
+    <select name="coffee" id="coffee" multiple size="5">
       <optgroup label="coffees">
       <option value="regular coffee">regular coffee</option>
       <option value="iced coffee">iced coffee</option> 
@@ -151,28 +156,47 @@
     </optgroup>        
     </select>
   </p>
+
+  <!-- <p>
+    <label for="choose a coffee">favorite coffee:</label>
+    
+    <input type="text" name="coffee" id="coffee" list="coffees-list">
+ 
+      <datalist id="coffees-list">
+      
+      <option value="iced coffee">
+     
+      <option value="latte">
+      <option value="cappuccino"> 
+      <option value="brue coffee">
+      <option value="cortado"> 
+      <option value="americano"> 
+      <option value="others">  
+      </datalist>
+  </p> -->
   
   <p>
     <label for="decade">choose a decade:</label>
   <input type="number" name="decade" 
   id="decade" min="1950" max="2030" step="10" value="1980">
   </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+</fieldset>
+<br>
+<fieldset>
+  <legend>what is ur favorite food</legend>
+  <p>
+    <input type="radio" name="food" id="tacos" value="tacos">
+    <label for="tacos">tacos</label>
+  </p>
+  <p>
+    <input type="radio" name="food" id="pizza" value="pizza">
+    <label for="pizza">pizza</label>
+  </p>
+  <p>
+    <input type="radio" name="food" id="tacos" value="others">
+    <label for="others">others</label>
+  </p>
+</fieldset>
   </form>
 
 
