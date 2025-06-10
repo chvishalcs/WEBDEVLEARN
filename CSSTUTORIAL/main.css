@@ -11,3 +11,24 @@ h1{
     font-size:3rem;
     padding:0.5em;
 }
+
+h2{
+    border:100px;
+    width:100%;
+    font-size: 3rem;
+    padding:7em;
+}
+
+h3{
+    border:100px;
+    width:100%;
+    font-size: 3rem;
+    padding:7em;
+}
+
+h4{
+    border:100px;
+    width:100%;
+    font-size: 3rem;
+    padding:7em;
+}
