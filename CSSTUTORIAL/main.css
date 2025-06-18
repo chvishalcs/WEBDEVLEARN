@@ -67,3 +67,17 @@ h12{
     font-size: smaller;
     padding:0cqb;
 }
+
+h13{
+    border: 4px;
+    width:max-content;
+    font-size: larger;
+    padding: 5px;
+}
+
+h14{
+    border:0cqb;
+    width:min-content;
+    font-weight: 400;
+    padding:0cm;
+}
