@@ -1,32 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=swap');
+.paragraph-1 {
+    color:red;
+}
+.paragraph-2 {
+    color:blue;
+}
 
+#first-paragraph{
+    color:chartreuse;
+}
 
+#first-paragraph{
+    color:brown;
+}
 
-
-
-div{
-    /*color */
-    background-color: rgba(252, 246, 246, 0.5);
-
-   /* width and height */
-
-    width:100%;
-    max-width:400px;
-    background-color: rgb(65, 227, 73,0.5);
-    width:700vw;
-
-    /* fonts */
-
-    font-size: 25px;
-    font-weight: revert;
-    font-family:Yanone Kaffeesatz, sans-serif;
-
-    /* border */
-
-   border: 4px solid orange;
-    
-
-color:red;
-
- 
-}  
+p.
