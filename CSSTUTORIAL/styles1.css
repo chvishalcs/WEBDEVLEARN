@@ -1,16 +1,4 @@
-.paragraph-1 {
-    color:red;
+.box{
+    width:200px;
+    border:1px solid red;
 }
-.paragraph-2 {
-    color:blue;
-}
-
-#first-paragraph{
-    color:chartreuse;
-}
-
-#first-paragraph{
-    color:brown;
-}
-
-p.
