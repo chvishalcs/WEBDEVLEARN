@@ -1,19 +1,16 @@
-.title{
-    font-size: 52px;
-}
+button {
+    transition:300ms;
 
-.paragraph{
-    font-size: 24px;
 }
 
 
-@media (max-width:480px) {
-    .title{
-        font-size: 32px;
-    }
 
-    .paragraph{
-        font-size: 20px;
-    }
+
+
+
+button:hover{
+    transition: 300ms;
+    opacity:30%
+    
 
 }
