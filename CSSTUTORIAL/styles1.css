@@ -1,16 +1,15 @@
-button {
-    transition:300ms;
-
+P{
+    animation: pointdown 1000ms infinite alternate-reverse;
 }
 
 
 
+@keyframes pointdown{
+    0%{
+transform:translateY(16px);
 
+    }
+    100%{
 
-
-button:hover{
-    transition: 300ms;
-    opacity:30%
-    
-
+    }
 }
